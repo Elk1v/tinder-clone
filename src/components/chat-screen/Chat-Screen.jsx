@@ -1,31 +1,31 @@
 import React, { useState }from 'react';
 import './Chat-Screen.css';
-import Avatar from "@material-ui/core/Avatar";
+import Avatar from '@material-ui/core/Avatar';
 const ChatScreen = () => {
     const [input, setInput] = useState('')
     const [messages, setMessages] = useState(
         [
             {
                 id: 0,
-                name: `Alexandra`,
-                image: `https://sun9-20.userapi.com/c848536/v848536789/11d61e/7YJCqHdXb_g.jpg`,
+                name: `Elon`,
+                image: `https://static.theceomagazine.net/wp-content/uploads/2018/10/15093202/elon-musk-1100x733.jpg`,
                 message: `Hey there`,
             },
             {
                 id: 1,
-                name: `Alexandra`,
-                image: `https://sun9-20.userapi.com/c848536/v848536789/11d61e/7YJCqHdXb_g.jpg`,
+                name: `Elon`,
+                image: `https://static.theceomagazine.net/wp-content/uploads/2018/10/15093202/elon-musk-1100x733.jpg`,
                 message: `Hows its going?`,
             },
             {
                 id: 11,
-                message: `Hi, Sweetness! How are u ?`,
+                message: `Hi, Nikola`,
             },
             {
                 id: 3,
-                name: `Alexandra`,
-                image: `https://sun9-20.userapi.com/c848536/v848536789/11d61e/7YJCqHdXb_g.jpg`,
-                message: `Plumk!`,
+                name: `Elon`,
+                image: `https://static.theceomagazine.net/wp-content/uploads/2018/10/15093202/elon-musk-1100x733.jpg`,
+                message: `LULW`,
             }
         ]
     )

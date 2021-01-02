@@ -5,9 +5,9 @@ const Chats = () => {
     return (
         <div className='chats'>
             <Chat
-                name={'Alexandra'}
-                message={'POOQ'}
-                avatar={'https://sun9-20.userapi.com/c848536/v848536789/11d61e/7YJCqHdXb_g.jpg'}
+                name={'Elon'}
+                message={'LULW'}
+                avatar={'https://static.theceomagazine.net/wp-content/uploads/2018/10/15093202/elon-musk-1100x733.jpg'}
                 time={'10 minutes ago'}
             />
         </div>
